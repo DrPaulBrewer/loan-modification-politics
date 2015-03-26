@@ -1,0 +1,13 @@
+bq.sql	Google BigQuery against public datasets to produce
+	file hampapprovalVSpopvote.csv
+
+usage:
+
+bq --quiet query --format=csv $(cat bq.sql) >./hampapprovalVSpopvote.csv
+
+bqWithDCPR.sql  same type of data query but adds DC and PR
+
+fig1.png 	output figure of makeFig1.r
+
+makeFig1.r, makeFig2.r, ... R programs to do linear analysis and make plots
+
